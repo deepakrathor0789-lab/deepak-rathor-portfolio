@@ -155,7 +155,7 @@ const Footer = ({ darkMode }) => {
               <FaLinkedin />
             </a>
             <a 
-              href="https://mail.google.com/mail/u/0/?fs=1&to=deepakrathor0789@gmail.com&tf=cm" 
+              href="https://mail.google.com/mail/u/0/?fs=1&to=deepakrathor0789@gmail.com&tf=cm" target="_blank"
               className={`p-3 rounded-xl text-2xl transition-all duration-300 ${
                 darkMode 
                   ? 'bg-white/5 text-gray-400 hover:text-yellow-400 hover:bg-white/10 hover:scale-110' 
