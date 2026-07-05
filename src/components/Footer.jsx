@@ -155,13 +155,13 @@ const Footer = ({ darkMode }) => {
               <FaLinkedin />
             </a>
             <a 
-              href="mailto:deepakrathor0789@gmail.com" 
+              href="https://mail.google.com/mail/u/0/?fs=1&to=deepakrathor0789@gmail.com&tf=cm" 
               className={`p-3 rounded-xl text-2xl transition-all duration-300 ${
                 darkMode 
                   ? 'bg-white/5 text-gray-400 hover:text-yellow-400 hover:bg-white/10 hover:scale-110' 
                   : 'bg-gray-100 text-gray-600 hover:text-yellow-500 hover:bg-gray-200 hover:scale-110'
               }`}
-              aria-label="https://mail.google.com/mail/u/0/?fs=1&to=deepakrathor0789@gmail.com&tf=cm"
+              aria-label="Email"
             >
               <FaEnvelope />
             </a>
