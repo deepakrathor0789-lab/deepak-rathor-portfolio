@@ -38,7 +38,7 @@ const Projects = ({ darkMode }) => {
         'Contact Form',
         'Project Showcase'
       ],
-      githubFrontend: "https://github.com/deepakrathor0789-lab/portfolio",
+      githubFrontend: "https://github.com/deepakrathor0789-lab/deepak-rathor-portfolio",
       liveDemo: "#",
       tech: ['React.js', 'Tailwind CSS', 'Framer Motion', 'React Icons'],
       icon: <FaCode />
