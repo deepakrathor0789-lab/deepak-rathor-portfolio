@@ -9,7 +9,7 @@ const ResumeButton = ({ className = '', children }) => {
   const handleDownload = async () => {
     setIsDownloading(true);
     try {
-      const response = await fetch('/my-resume.pdf');
+      const response = await fetch('/full stack resume.pdf');
       if (!response.ok) throw new Error('Resume not found');
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
